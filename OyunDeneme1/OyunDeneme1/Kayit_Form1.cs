@@ -18,9 +18,9 @@ namespace OyunDeneme1
         IFirebaseConfig config = new FirebaseConfig
         {
             // Firebase projesinin url adresi
-            BasePath = "https://tabudeneme-default-rtdb.firebaseio.com",
+            BasePath = "",
             // Firebase setting sayfasindan aldigimiz secret key
-            AuthSecret = "ArRE4e5Ur2jMOqpnAzrzoTUNT3tBdWKl4dvaD1GD"
+            AuthSecret = ""
         };
         // Firebase client
         IFirebaseClient client;
